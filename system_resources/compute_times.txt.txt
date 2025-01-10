@@ -1,0 +1,19 @@
+***Google T5 FLAN Run times***
+974 academic papers - https://sbert.net/datasets/emnlp2016-2018.json 
+CPU ONLY - i9-9900K 16Core 4.5GHz and 32GB RAM
+    T5 - BASE = 224.3 seconds
+    T5 - LARGE = 717.6 seconds
+    T5 - XL = 1833.93 seconds***
+    T5 - XXL = 5767.3 seconds
+
+GPU ONLY - RTX2080TI 11GB GDDR6  4.5GHz and 32GB RAM
+    T5 - BASE = 12.59 seconds
+    T5 - LARGE = 29.18 seconds
+    T5 - XL = 99.94 seconds
+    T5 - XXL = ??"Out of Memory Crash"
+
+CPU ONLY VM Xeon 12Core 2.2 GHz and 32GB RAM
+    T5 - BASE = 321.09
+    T5 - LARGE = 1244.52
+    T5 - XL = 2879.17
+    T5 - XXL = 7570
